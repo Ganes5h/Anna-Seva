@@ -1,0 +1,29 @@
+.stepContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stepText {
+  margin-top: 5px; /* Adjust as needed */
+  font-size: 14px;
+  font-weight: bold;
+  color: black; /* Adjust color as needed */
+}
+
+.completedStep .stepText {
+  color: black; /* Adjust color for completed steps */
+}
+
+.deliveryTrackingContainer {
+  background-color: #f2f2f2; /* Background color for the whole component */
+  padding: 20px; /* Add padding around the component */
+}
+
+.buttonContainer {
+  margin-top: 20px; /* Add space between stepper and button */
+}
+
+.deliveryCompleteContainer {
+  margin-top: 20px; /* Add space between stepper and completion message */
+}

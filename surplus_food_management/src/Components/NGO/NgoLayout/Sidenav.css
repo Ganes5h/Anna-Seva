@@ -1,0 +1,14 @@
+@media (min-width: 0px) and (max-width: 1400px) {
+    .hidden-md-block {
+      display: block !important;
+    }
+  }
+
+  .hamburger-icon {
+    fill: white; /* Set hamburger icon color to black */
+  }
+  .selected-link {
+    background-color: #bd0404; /* Set your desired dark background color here */
+    color: black; /* Set text color to contrast with the dark background */
+  }
+  
